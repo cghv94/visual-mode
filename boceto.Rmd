@@ -1,0 +1,68 @@
+---
+title: "Formato del documento"
+author: "Cesar Hernández"
+date: "3/3/2021"
+output: html_document
+---
+
+# Este es el título principal y está centrado {style="text-align: center;"}
+
+</br></br>
+
+Aquí hay dos saltos de línea arriba y dos abajo
+
+</br></br>
+
+## Este es un subtítulo y lo de abajo es texto justificado. {style="text-align: justify;"}
+
+Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado. Este es texto justificado.
+
+## Este es otro subtítulo y lo de abajo es código {style="text-align: justify;"}
+
+```{r}
+# Código
+x<-1+3
+x
+```
+
+**Esto es texto en negritas**
+
+*Esto es texto en itálicas*
+
+[Esto es texto subrayado]{.ul}
+
+`Este es texto resaltado`
+
+-   Esta
+
+-   es
+
+-   una
+
+-   lista
+
+1.  Esta
+
+2.  es
+
+3.  una
+
+4.  numeración
+
+> Este es un blockquote
+
+[Este es un hipervínculo](https://google.com)
+
+Lo de aquí es una imagen centrada
+
+<center>
+
+![Fuente: aquí va la fuente](https://upload.wikimedia.org/wikipedia/commons/c/ca/Escudo-UNAM-escalable.svg){width="300"}
+
+</center>
+
+Esta es una expresión matemática
+
+$$
+x = 3*4
+$$
